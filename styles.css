@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; /* Fundo cinza claro */
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white; /* Fundo branco para o container */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+    text-align: center;
+}
+
+input[type="text"], select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #007BFF; /* Borda azul */
+    background-color: #E2E2E2; /* Fundo cinza para inputs e botões */
+    color: black; /* Texto preto */
+}
+
+button {
+    background-color: #007BFF; /* Fundo azul para o botão */
+    color: white; /* Texto branco */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    background: #f9f9f9; /* Fundo quase branco para cada item da lista */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil para os itens da lista */
+}
+
+button.delete-btn {
+    float: right;
+    background-color: red; /* Botão de excluir com fundo vermelho */
+    margin-left: 10px;
+}
